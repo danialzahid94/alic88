@@ -1,0 +1,30 @@
+PODS:
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - FBSDKCoreKit (4.3.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.3.0)
+    - FBSDKCoreKit/no-arc (= 4.3.0)
+  - FBSDKCoreKit/arc (4.3.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.3.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  FBSDKCoreKit: a3a60225a84abeace291d0fe71cae29a627382c2
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.37.2
